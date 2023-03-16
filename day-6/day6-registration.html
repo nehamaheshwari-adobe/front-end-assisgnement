@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Day6: Registration</title>
+    </head>
+    <body>
+    <h3><a href="day6-login.html">Login</a>&nbsp;&nbsp;|&nbsp;&nbsp;Registration</h3>
+    <form>
+        <fieldset>
+            <legend>Enter your details</legend>
+            <div>
+                <label>Create username</label>
+                <input 
+                type="text"
+                required
+                value=""
+                aria-label="please enter a username"
+                placeholder="username" />
+            </div>
+            <div>
+                <label>Enter your email</label>
+                <input 
+                type="email"
+                required
+                value=""
+                aria-label="please enter the email"
+                placeholder="email" />
+            </div>
+            <div>
+                <label>Enter password</label>
+                <input 
+                type="password"
+                required
+                value=""
+                aria-label="please enter the password"
+                placeholder="password" />
+            </div>
+            <div>
+                <label for="newsletter"><small>I agree to receive the newsletter updates</small></label>
+                <input id="newsletter" type="checkbox" name="newsletter" />
+            </div>
+            
+            <input type="submit"/>
+            <input type="reset"/>
+            <p><small>Already have an account? <a href="day6-login.html">login</a></small></p>
+        </fieldset>
+    </form>
+    </body>
+</html>
