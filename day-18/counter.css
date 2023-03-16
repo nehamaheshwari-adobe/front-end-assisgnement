@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ 
+.counterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: lightgray;
+}
+  
+button {
+    background-color: deeppink;
+    color: honeydew;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  input {
+    width: 200px;
+    line-height: 50px;
+    font-size: 30px;
+  }
+
+  button:hover {
+    background-color: lightpink;
+    color: grey;
+}
+   
+h2 {
+    font-size: 35px;
+    color: darkviolet;
+}
