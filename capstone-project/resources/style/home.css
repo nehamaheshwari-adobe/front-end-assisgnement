@@ -1,0 +1,219 @@
+.heroImage {
+  background-image: url("images/home/heroImage.jpg");
+  width: 100%;
+  height: 16.7%;
+}
+
+.heroImageContainer {
+  position: relative;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.heroImage-text1 {
+  position: absolute;
+  left: 770px;
+  top: 202px;
+}
+
+.newArrivals {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.newArrivals-discoverText {
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #1d1d1d;
+}
+
+.newArrivals-recentText {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 48px;
+  /* identical to box height, or 240% */
+  /* text */
+
+  color: #555555;
+}
+
+.newArrivals-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.newArrivals-images > div {
+  flex: 50%;
+}
+
+.siteBenefits {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+  flex-wrap: wrap;
+}
+
+.siteBenefits * i {
+  padding-left: 40px;
+}
+
+.siteBenefits * span {
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height */
+
+  /* display: flex; */
+  align-items: center;
+  text-transform: uppercase;
+
+  /* heading */
+
+  color: #1d1d1d;
+  padding-left: 20px;
+}
+
+.siteBenefits * p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  padding-left: 100px;
+
+  /* text */
+
+  color: #555555;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  /* background: #000000; */
+}
+
+.promo-1 {
+  background-color: black;
+}
+
+.promo-2 {
+  background-color: black;
+  margin-top: 20px;
+}
+
+.promo-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.promo-desc {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.buyNow {
+  background: #ffffff;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.04);
+
+  width: 68px;
+  height: 20px;
+
+  /* identical to box height, or 143% */
+
+  /* display: flex; */
+  /* align-items: center;
+  text-align: center; */
+
+  border-radius: 3px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  /* Primary */
+
+  color: #024e82;
+}
+
+/* .buyNow > p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #024e82;
+} */
+
+@media screen and (min-width: 992px) {
+  .newArrivals-images {
+    flex-direction: row;
+  }
+  .newArrivals-images > div {
+    flex: 25%;
+  }
+  .siteBenefits {
+    flex-wrap: nowrap;
+  }
+  .siteBenefits * i {
+    padding-left: 60px;
+  }
+  .promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 63px;
+    /* background: #000000; */
+  }
+
+  .promo-1 {
+    flex-grow: 1.5;
+    padding: 0 150px;
+  }
+
+  .promo-2 {
+    margin-left: 20px;
+    flex-grow: 1;
+    padding: 0 50px;
+    margin-top: 0;
+  }
+}
